@@ -5,13 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Planner</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
+<div class="container">
+
+    <section class="weatherAndUv">
+        <div>
+            <form>
+                <label for="weatherCity">Enter Zipcode for weather</label>
+                <input type="text" id="weatherCity" placeholder="New York">
+                <input type="button" class="weatherButton" value="submit">
+            </form>
+        </div>
+        <div class="weatherContainer"></div>
+        <div class="uvContainer"></div>
+    </section>
+
+    <!-- <section class="yelp">
+        <h3 class="yelpResults hidden"></h3>
+        <form>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" placeholder="Rockville">
+            <label for="state"></label>
+            <input type="text" maxlength="2" name="state" id="state" placeholder="MD">
+            <label for="term">Find</label>
+            <input name="term" id="term" placeholder="food,bars,restaurant">
+            <input type="button" id="submitButton" value="submit">
+        </form>
+    </section> -->
+</div>
+    
  
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
 </body>
 </html>
