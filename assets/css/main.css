@@ -4,15 +4,13 @@
     box-sizing: border-box;
 }
 
-.weatherAndUv{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
+.container{
+    height: 100vh;
+    width: 100%;
 }
-
 .weatherContainer{
-    height: 100%;
+    width: 100%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,8 +28,12 @@
     align-items: center;
 }
 
+.weatherContainer .temp-suggestion, .weatherContainer .temp-description{
+    height: 10vh;
+}
+
 .temp{
-    flex-direction: column;
+    flex-direction: column;.
 }
 
 .degree-section{
