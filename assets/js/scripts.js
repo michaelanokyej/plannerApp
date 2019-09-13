@@ -117,8 +117,8 @@ function initialize(){
                         <div class="paraWrapper">
                             <p class="center description">${array[i].listingdescription}</p>
                         </div>
-                        <div class="project-links">
-                            <a href="${array[i].url}" class ="projectButton" target="_blank">Go to park</a> 
+                        <div class="park-links">
+                            <a href="${array[i].url}" class ="parkButton" target="_blank">Go to park</a> 
                         </div>
                     </li>
                     `)

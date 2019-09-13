@@ -56,8 +56,9 @@
 }
 
 
-/* Park container styles */
-.park-todo {
+/* Park styles */
+.park-container {
+    box-shadow: 0 0 30px rgba(72, 94, 115, 0.7);
     padding: 16px;
     width: 100%;
     display: flex;
@@ -70,15 +71,129 @@
     color: black;
 }
 
-.todoButton{
+h1.results{
+    padding: 24px;
+}
+
+.parks{
+    width: 100%;
+	overflow: hidden;
+	/* background: skyblue; */
+	margin: 20px auto;
+	padding: 20px 0px;
+}
+
+.parks ul{
+	padding: 0px;
+	margin: 0px;
+    width: 100%;
+    background: yellow;
+}
+
+div.imgWrapper{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.parks ul li{
+	box-shadow: 0 0 30px rgba(72, 94, 115, 0.7);
+	list-style: none;
+	float: left;
+	width: 100%;
+	/* background: #F6ECE7; */
+	margin: 20px 20px 0px 0px;
+	box-sizing: border-box;
+}
+
+.parks ul li:hover{
+	opacity: 0.9;
+}
+
+.parks ul li .title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	/* border: 1px solid black; */
+	background-color: white;
+	text-align: center;
+}
+
+.parks ul li .title:hover{
+	background: #c9e6ff;
+	color: white;
+}
+
+div.park-links{
+	display: flex;
+	display: inline-block;
+	padding: 8px;
+    width: 100%;
+    padding: 16px;
+}
+
+.parks ul li .description{
+	width: 100%;
+	/* height: 30px; */
+	line-height: 15px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: bold;
+	padding: 8px;
+	/*background-color: white;*/
+	/* text-align: center; */
+	/* display: none; */
+}
+
+div.paraWrapper{
+	height: auto;
+}
+
+a.parkButton{
+	display: flex;
+    background: #c9e6ff;
+	border: none;
+  	padding: 4px 4px;
+  	margin-top: 16px;
+  	display: inline-block;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+a.parkButton:hover, a.parkButton:focus{
+	background: #92bde7;
+	color: #f9feff;
+	outline: 0;
+	transition: background-color 2s ease-out;
+}
+
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*LARGE SCREENS*/
+
+@media screen and (min-width: 600px){
+
+}
+
+/* li {
+    list-style-type: none;
+  } */
+
+/* .todoButton{
     width: 100%;
     border: none;
     line-height: 20px;
     padding-top: 8px;
     margin-top: 8px;
     border: 1px sold black;
-}
+} */
 
- button:hover, button:focus{
+ /* button:hover, button:focus{
     background: (rgb(47, 150, 163));
-}
+} */
