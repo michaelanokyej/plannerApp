@@ -12,8 +12,8 @@
 <div class="container">
     <div class="weatherContainer">
         <div class="location">
+            <!-- <canvas class="icon" width="128" height="128"></canvas> -->
             <h1 class="location-timezone">Timezone</h1>
-            <canvas class="icon" width="128" height="128"></canvas>
         </div>
         <div class="temp">
             <div class="degree-section">
@@ -24,8 +24,14 @@
                 <!-- <div class="temp-suggestion"></div> -->
     </div>
     <div class="park-todo">
-        <div class="park-container"></div>
-        <div class="todoContainer"></div>
+        <div class="park-container">
+            <h1 class="results hidden"> Here are some national parks around you.</h1>
+            <ul class="displayedResults"></ul>
+        </div>
+        <div class="todoContainer">
+           <button class="todoButton">To-Do List</button>
+           <div class="hidden" id="todoApp"></div>
+        </div>
     </div>
     
 </div>
